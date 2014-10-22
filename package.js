@@ -11,10 +11,8 @@ Package.on_use(function (api) {
 
   api.use('standard-app-packages@1.0.2', ['client','server']);
   api.use('iron:router@0.9.4', 'client');
-  api.use('mrt:bootstrap-3@0.3.8', 'client');
   api.use('mrt:moment@2.8.1', 'client');
   api.use('less@1.0.9', 'client')
-  api.use('mrt:font-awesome-4-less@4.4.0', 'client')
 
   //api.use('clinical-ui-syntax', 'client')
 
@@ -24,5 +22,4 @@ Package.on_use(function (api) {
   api.addFiles('hipaa.shared.js', ["client","server"]);
   api.addFiles('hipaa.server.js', "server");
   api.addFiles('hipaa.client.js', "client");
-  api.addFiles('hipaa.less', "client");
 });
